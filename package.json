@@ -1,0 +1,28 @@
+{
+  "name": "@mhe/cldr-core-js",
+  "version": "32.0.0-alpha.2",
+  "description": "cldr-core JSON objects exported as JavaScript modules.",
+  "scripts": {
+    "build": "node ./cp-cldr-core.js",
+    "release": "npm run build && npm publish ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickcnagy/cldr-core-js.git"
+  },
+  "files": [
+    "package.json",
+    "supplemental/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickcnagy/cldr-core-js/issues"
+  },
+  "homepage": "https://github.com/rickcnagy/cldr-core-js#readme",
+  "devDependencies": {
+    "cldr-core": "32.0.0",
+    "mkdirp": "^0.5.1"
+  }
+}
