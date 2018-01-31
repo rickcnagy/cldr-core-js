@@ -1,6 +1,6 @@
 {
   "name": "@mhe/cldr-core-js",
-  "version": "32.0.0-alpha.2",
+  "version": "32.0.0",
   "description": "cldr-core JSON objects exported as JavaScript modules.",
   "scripts": {
     "build": "node ./cp-cldr-core.js",
